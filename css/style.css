@@ -1,12 +1,19 @@
-@media screen and (max-width: 600px) {
+@media screen and ( min-width: 1025px ) {
 .flex-container {
     display: flex;
-    
+
 }
 
-.flex-container img {
+
+ div.responsive {
     width: 10%;
-    height: auto;
-}
+    height: 10%;
+ }
 
+    #header {
+        width: 100%;
+        position: top center;
+   }
 }
+ 
+
